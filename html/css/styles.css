@@ -1,0 +1,340 @@
+
+*{
+    Font-family: 'Inter', sansarif;
+}
+header{
+  background-color: #fff;
+}
+#topbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    border-bottom: 1px solid rgb(199, 195, 195);
+
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+  }
+  
+ .search-bar button{
+    padding: 6px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  .search-bar button:hover {
+    background-color: #589ce5;
+  }
+  #navigationbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    padding: 10px;
+    width: auto;
+    height: 35px;
+    border-bottom: 1px solid rgb(199, 195, 195);
+    font-size: 12px;
+}
+
+#nav1 {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+
+  }
+  
+  #nav1 p {
+    margin: 0;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  #nav1 p:hover {
+    text-decoration: underline;
+  }
+  .newsletter {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  
+  .newsletter input {
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px ;
+    width: 250px;
+  }
+  
+  .newsletter button {
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    border: none;
+  
+  }
+  
+  footer {
+    background-color: #fff;
+    padding: 20px;
+  }
+  .footer-cols {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-cols div h4 {
+    margin-bottom: 8px;
+  }
+  .footer-cols div p{
+    font-size: 13px;
+    color: #ccc;
+  }
+  footer p {
+    margin: 4px 0;
+    
+  }
+  
+.copyright {
+    text-align: center;
+    padding-top: 3px;
+  }
+  #end{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: auto;
+    height: 20px;
+    background-color:#f1f1f1;
+    font-size: 12px;
+  }
+                                          /* WEEK 2 */
+  body{
+    background-color: #f7fafc;
+  }
+#landing{
+  /* top and bottom | left and right */
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  max-width: 1100px;
+  background-color:#ffff;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+#categories{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  gap: 12px;
+  /* border: 1px solid rgb(45, 36, 36); */
+}
+#categories button{
+  /* top | right | bottom | left */
+  /* padding: 8px 12px; */
+  padding: 8px 12px;
+  text-align: left;
+  cursor: pointer;
+  color: #505050;
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+#categories button:hover{
+  background-color: #e5f1ff;
+  color: #141515;
+}
+#trending{
+  margin: 0 3px 0;
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+#trending img {
+  width: 100%;
+  /* max-width: 420px;
+  height: 230px; */
+  object-fit: cover;
+  border-radius: 3px;
+}
+#side{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 15px;
+  padding: 15px 0; 
+  width: 150px;
+}
+#side img {
+  border-radius: 6px;
+}
+#deals{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  overflow: hidden;
+  height: 200px;
+  max-width: 1120px;
+  margin: 10px auto;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+#dof{
+  /* top | right | bottom | left */
+  padding: 10px 60px 10px 20px;
+}
+.itemhorizontal img{
+  width:  150px;
+  height: 200px;
+  max-width: 100%; 
+}
+.ads {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+  gap: 10px;
+  margin: 18px 70px;
+}
+
+.ads img {
+  max-width: 100%; /* Ensures images don't overflow */
+  height: auto; 
+}
+#blue {
+  position: relative;
+  overflow: hidden;
+  width: 1120px;height: 385px;
+  margin: 0 20px 10px 70px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blue img {
+  object-fit: fill;
+}
+#textlorem{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px;
+  padding: 20px;
+  width: 400px; height: 600px;
+  color: #fff;
+  text-align: left;
+  font-size: 24px;
+  word-spacing: 4px;
+}
+#inquiry{
+  position: absolute;
+  top: 0; /* Position at top-right corner */
+  right: 0;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #E6E9EC;
+  border-radius: 5px;
+  width: 350px; height: auto;
+}
+#nameitem{
+  width: 90%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 2px solid #E6E9EC;
+}
+#details{
+  width: 90%; height: 60px;
+  padding: 6px;
+  border-radius: 6px;
+  text-align: top;
+  border: 2px solid #E6E9EC;
+}
+#qty, #measurement{
+  width: 40%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 2px solid #E6E9EC;
+}
+#details:focus, #nameitem:focus, #qty:focus{
+  outline: none;
+  border: 2px solid #283478;
+}
+#inquiry form{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+#sInbutton{
+  color: #fff;
+  width: 30%;
+  background-color: #107CFF;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+#sInbutton:hover{
+  background-color: #0b5ed7;
+  cursor: pointer;
+}
+#products{
+  margin: 20px 64px 10px 64px;
+}
+#products h6 {
+  margin: 10px;
+}
+#productslist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  /* margin: 0 20px; */
+  padding: auto 0;
+}
+#productslist img {
+  width: 180px;
+  max-width: 250px;
+  height: 250px;
+}
+#services, #regions{
+  margin: 20px 64px 20px 64px;
+  overflow: hidden;
+}
+#services h6 , #regions h6{
+  margin: 20px;
+}
+#services img, #regions img {
+  width: 100%;
+}
