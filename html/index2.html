@@ -8,8 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
                                 <!-- HEADER -->
 <header>
@@ -19,13 +18,13 @@
             <div class="search-bar">
                 <input type="text" placeholder="Search">
                 <select>
-                  <option>All category</option>
+                    <option>All category</option>
                 </select>
                 <button>Search</button>
             </div>
 
             <img src="imgs/Actions.png" alt="useractions"
-             width="180px" height="30px" style="float:right ;">
+                width="180px" height="30px" style="float:right ;">
         </div>
         <div id="navigationbar">
             <div id="nav1">
@@ -48,114 +47,148 @@
         </div>
 
 </header>
-                                <!-- BODY -->
+                        <!-- BODY -->
 <body>
-    <div id="landing">
-        <div id="categories">
-            <button type="button">Automobiles</button>
-            <button type="button">Clothes and Wear</button>
-            <button type="button">Home Interiors</button>
-            <button type="button">Computer and Tech</button>
-            <button type="button">Tools, equipments</button>
-            <button type="button">Sports and outdoor</button>
-            <button type="button">Animal and pets</button>
-            <button type="button">Machinery tools</button>
-            <button type="button">More categories</button>
-        </div>
-        <div id="trending">
-            <img src="imgs/banner.png" alt="banner"
-            >
-        </div>
-        <div id="side">
-           <img src="imgs/reg.png" alt="register" width="190px" height="140px">
-           <img src="imgs/blocko.png" width="190px" height="90px" > 
-           <img src="imgs/blockc.png" width="190px" height="90px">
-        </div>
-    </div>
-    
-    <div id="deals">
-        <div id="dof">
-            <h4>Deals and Offers</h4>
-            <p style="color: rgb(109, 107, 107); font-size: 14px;">Hygiene equipments</p>
-            <img src="imgs/time.png" alt="time" width="160px" height="40px">
-        </div>
-        <div class="itemhorizontal">
-            <img src="imgs/watchItem.png" alt="watch">
-        </div>
-        <div class="itemhorizontal">
-            <img src="imgs/laptopItem.png" alt="laptptop">
-        </div>
-        <div class="itemhorizontal">
-            <img src="imgs/cameraItem.png" alt="camera">
-        </div>
-        <div class="itemhorizontal">
-            <img src="imgs/hdphonesItem.png" alt="headphones">
-        </div>
-        <div class="itemhorizontal">
-            <img src="imgs/mobileItem.png" alt="phone">
-        </div>
-        <div class="itemhorizontal">
-            <img src="imgs/cameraItem.png" alt="c2">
-    </div></div>
-
-    <div class="ads">
-        <img src="imgs/Block-items-group-1.png" alt="ads">
-        <img src="imgs/Block-items-group.png" alt="ads">
-    </div>
-
-    <div id="blue">
-        <img src="imgs/blue.png" alt="blue img">
-        <div id="textlorem">
-            <h7 style="font-size: 28px;  font-weight: 600;">An easy way to send requests to all suppliers</h7>
-            <p style="font-size: 14px;">Lorem ipsum dolor sit amet,
-                Eos in quidem dolorem optio nobis?blah blah latin blah Expedita!</p>
-        </div>
-        <div id="inquiry">
-            <h4 style="font-size: 17px;">Send quote to suppliers</h4>
-            <form action="">
-                <input type="text" placeholder="What item do you need?" id="nameitem">
-                <br><input type="text" placeholder="Type more details" id="details" required>
-                <br><div>
-                    <input type="text" placeholder="Quantity" id="qty" required>
-                    <select id="measurement">
-                        <option value="measurement">Pcs</option>
-                        <option value="measurement">Kg</option>
-                    </select>
-                </div>
-                <button type="submit" id="sInbutton">Send inquiry</button>
-            </form>
-        </div>
-    </div>
-
-    <div id="products">
-        <h6 style="font-size: 20px;  font-weight: 600;">Recommended items</h6>
-
-        <div id="productslist">
-            <img src="imgs/item-home-sm.png" alt="product1">
-            <img src="imgs/item-home-sm_1.png" alt="product2">
-            <img src="imgs/item-home-sm_2.png" alt="product3">
-            <img src="imgs/item-home-sm_3.png" alt="product4">
-            <img src="imgs/item-home-sm_4.png" alt="product5">
-            <img src="imgs/item-home-sm_5.png" alt="product6">
-            <img src="imgs/item-home-sm_6.png" alt="product7">
-            <img src="imgs/item-home-sm_7.png" alt="product8">
-            <img src="imgs/item-home-sm_8.png" alt="product9">
-            <img src="imgs/item-home-sm_9.png" alt="product10">
+    <div id="container">
+        <div id="sidebar">
+            <div class="sidebar-section">
+                <p class="sidebar-title">Category</p>
+                <p class="grey">Mobile accessory</p>
+                <p class="grey">Electronics</p>
+                <p class="grey">Smartphones</p>
+                <p class="grey">Modern techs</p>
+                <p class="see-all">See all</p>
+                <hr>
+            </div>
+            
+            <div class="sidebar-section">
+                <p class="sidebar-title">Brands</p>
+                <p><input type="checkbox"> Samsung</p>
+                <p><input type="checkbox"> Apple</p>
+                <p><input type="checkbox"> Huawei</p>
+                <p><input type="checkbox"> Pocco</p>
+                <p><input type="checkbox"> Oppo</p>
+                <p class="see-all">See all</p>
+                <hr>
+            </div>
+            
+            <div class="sidebar-section">
+                <p class="sidebar-title">Features</p>
+                <p><input type="checkbox"> Metallic</p>
+                <p><input type="checkbox"> Plastic cover</p>
+                <p><input type="checkbox"> 8GB Ram</p>
+                <p><input type="checkbox"> Super power</p>
+                <p><input type="checkbox"> Large Memory</p>
+                <p class="see-all">See all</p>
+                <hr>
+            </div>
+            
+            <div class="sidebar-section">
+                <img src="imgs/pr.png" alt="price range"
+                width="170px" height="170px" style="margin-left: 10px;">
+                <hr>
+            </div>
+            
+            <div class="sidebar-section">
+                <p class="sidebar-title">Condition</p>
+                <p><input type="radio" name="condition"> Any</p>
+                <p><input type="radio" name="condition"> Refurbished</p>
+                <p><input type="radio" name="condition"> Brand new</p>
+                <p><input type="radio" name="condition"> Used</p>
+                <hr>
+            </div>
+            
+            <div class="sidebar-section">
+                <p class="sidebar-title">Ratings</p>
+                <img src="imgs/ratings.png" alt="ratings" 
+                width="160px" height="160px" style="margin-left: 10px;">
+            </div>
         </div>
         
-    </div>
-
-    <div id="services">
-        <h6 style="font-size: 20px;  font-weight: 600;">Our extra services</h6>
-        <img src="imgs/Section-service.png" >
-    </div>
-
-    <div id="regions">
-        <h6 style="font-size: 20px;  font-weight: 600;">Suppliers by region</h6>
-        <img src="imgs/Section-country.png" >
+        <div id="products">
+            <div class="product-card">
+                <img src="imgs/1.png" alt="Canon Camera" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Canon Cimus EOS 2000, Black 10x zoom</h3>
+                    <div class="product-price">
+                        <span class="original-price">$998.00</span>
+                        <span class="discounted-price">$518.99</span>
+                    </div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-meta">75 - 154 orders • Free Shipping</div>
+                    <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <a href="#" class="view-details">View details</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="imgs/2.png" alt="GoPro Camera" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">GoPro HERO6 4K Action Camera - Black</h3>
+                    <div class="product-price">$998.00</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-meta">75 - 154 orders • Free Shipping</div>
+                    <p class="product-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="view-details">View details</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="imgs/3.png" alt="GoPro Camera" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">GoPro HERO6 4K Action Camera - Black</h3>
+                    <div class="product-price">$998.00</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-meta">75 - 154 orders • Free Shipping</div>
+                    <p class="product-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="view-details">View details</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="imgs/7.png" alt="GoPro Camera" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">GoPro HERO6 4K Action Camera - Black</h3>
+                    <div class="product-price">$998.00</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-meta">75 - 154 orders • Free Shipping</div>
+                    <p class="product-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="view-details">View details</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="imgs/8.png" alt="GoPro Camera" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">GoPro HERO6 4K Action Camera - Black</h3>
+                    <div class="product-price">$998.00</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-meta">75 - 154 orders • Free Shipping</div>
+                    <p class="product-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="view-details">View details</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="imgs/9.png" alt="GoPro Camera" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">GoPro HERO6 4K Action Camera - Black</h3>
+                    <div class="product-price">$998.00</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-meta">75 - 154 orders • Free Shipping</div>
+                    <p class="product-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="view-details">View details</a>
+                </div>
+            </div>
+        </div>
+        <!-- pages-->
+        <div id="paging">
+            <select name="pages" id="allpages">
+                <option value="1">Show 1</option>
+                <option value="2">Show 2</option>
+                <option value="3">Show 3</option>
+                <option value="4">Show 4</option>
+                <option value="5">Show 5</option>
+            </select>
+        </div>
     </div>
 </body>
-                                <!-- FOOTER -->
 <section class="newsletter">
     <h3>Subscribe on our newsletter</h3>
     <p style="color: rgb(109, 107, 107); font-size: 12px;">Get daily news on upcoming offers from many suppliers</p>
